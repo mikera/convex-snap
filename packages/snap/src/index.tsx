@@ -32,6 +32,8 @@ export const onRpcRequest: OnRpcRequestHandler = async ({
               <Text>
                 But you can edit the snap source code to make it do something,
                 if you want to!
+
+                Hello from Convex
               </Text>
             </Box>
           ),

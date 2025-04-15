@@ -17689,7 +17689,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"site@workspace:packages/site":
+"site@file:, site@workspace:packages/site":
   version: 0.0.0-use.local
   resolution: "site@workspace:packages/site"
   dependencies:
@@ -17712,6 +17712,7 @@ __metadata:
     react-dom: ^18.2.0
     react-is: ^18.2.0
     rimraf: ^3.0.2
+    site: "file:"
     styled-components: 5.3.3
     typescript: ~5.7.3
   languageName: unknown
@@ -17766,7 +17767,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"snap@workspace:packages/snap":
+"snap@file:, snap@workspace:packages/snap":
   version: 0.0.0-use.local
   resolution: "snap@workspace:packages/snap"
   dependencies:
@@ -17779,6 +17780,7 @@ __metadata:
     eslint: ^9.11.0
     jest: ^29.5.0
     rimraf: ^3.0.2
+    snap: "file:"
     ts-jest: ^29.1.0
     typescript: ~5.7.3
   languageName: unknown
