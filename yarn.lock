@@ -3369,19 +3369,19 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-rpc-methods@npm:^12.1.0":
-  version: 12.1.0
-  resolution: "@metamask/snaps-rpc-methods@npm:12.1.0"
+  version: 12.3.0
+  resolution: "@metamask/snaps-rpc-methods@npm:12.3.0"
   dependencies:
     "@metamask/key-tree": ^10.1.1
     "@metamask/permission-controller": ^11.0.6
     "@metamask/rpc-errors": ^7.0.2
-    "@metamask/snaps-sdk": ^6.22.0
-    "@metamask/snaps-utils": ^9.2.0
+    "@metamask/snaps-sdk": ^6.24.0
+    "@metamask/snaps-utils": ^9.3.0
     "@metamask/superstruct": ^3.2.1
-    "@metamask/utils": ^11.2.0
+    "@metamask/utils": ^11.4.0
     "@noble/hashes": ^1.7.1
     luxon: ^3.5.0
-  checksum: ab7f0bc0b1899b6de372cd42f17d428467fbed03c8ed52c800976a4c48c73520f3bee4898d4431d863a6bfb19078cdeb68f46b983add3480c5a1beb70bee779c
+  checksum: 8c863a7ff8a47e6b6459ddc4654afa556042c6fe001c1373589aeee9e945aecd67f9be99fd8fb127c266aa30cc9211299ec61608c25336f1efc65e6d303074f8
   languageName: node
   linkType: hard
 
