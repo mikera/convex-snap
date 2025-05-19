@@ -2752,7 +2752,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/controller-utils@npm:^11.5.0, @metamask/controller-utils@npm:^11.6.0":
+"@metamask/controller-utils@npm:^11.5.0":
   version: 11.6.0
   resolution: "@metamask/controller-utils@npm:11.6.0"
   dependencies:
@@ -3028,22 +3028,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/phishing-controller@npm:^12.4.1":
-  version: 12.4.1
-  resolution: "@metamask/phishing-controller@npm:12.4.1"
-  dependencies:
-    "@metamask/base-controller": ^8.0.0
-    "@metamask/controller-utils": ^11.6.0
-    "@noble/hashes": ^1.4.0
-    "@types/punycode": ^2.1.0
-    ethereum-cryptography: ^2.1.2
-    fastest-levenshtein: ^1.0.16
-    punycode: ^2.1.1
-  checksum: f17755c910a2005c1dca821312704690368c7db3d1d05ad03842f20022e411af6fcf28102d07fb0eb27ad9f5a3391714db786f4d0266601531e0a482b7eae7f0
-  languageName: node
-  linkType: hard
-
-"@metamask/phishing-controller@npm:^12.5.0":
+"@metamask/phishing-controller@npm:^12.4.1, @metamask/phishing-controller@npm:^12.5.0":
   version: 12.5.0
   resolution: "@metamask/phishing-controller@npm:12.5.0"
   dependencies:
@@ -3368,24 +3353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-rpc-methods@npm:^12.1.0":
-  version: 12.3.0
-  resolution: "@metamask/snaps-rpc-methods@npm:12.3.0"
-  dependencies:
-    "@metamask/key-tree": ^10.1.1
-    "@metamask/permission-controller": ^11.0.6
-    "@metamask/rpc-errors": ^7.0.2
-    "@metamask/snaps-sdk": ^6.24.0
-    "@metamask/snaps-utils": ^9.3.0
-    "@metamask/superstruct": ^3.2.1
-    "@metamask/utils": ^11.4.0
-    "@noble/hashes": ^1.7.1
-    luxon: ^3.5.0
-  checksum: 8c863a7ff8a47e6b6459ddc4654afa556042c6fe001c1373589aeee9e945aecd67f9be99fd8fb127c266aa30cc9211299ec61608c25336f1efc65e6d303074f8
-  languageName: node
-  linkType: hard
-
-"@metamask/snaps-rpc-methods@npm:^12.3.0":
+"@metamask/snaps-rpc-methods@npm:^12.1.0, @metamask/snaps-rpc-methods@npm:^12.3.0":
   version: 12.3.0
   resolution: "@metamask/snaps-rpc-methods@npm:12.3.0"
   dependencies:
