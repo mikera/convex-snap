@@ -2752,7 +2752,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/controller-utils@npm:^11.5.0, @metamask/controller-utils@npm:^11.6.0":
+"@metamask/controller-utils@npm:^11.5.0":
   version: 11.6.0
   resolution: "@metamask/controller-utils@npm:11.6.0"
   dependencies:
@@ -3028,21 +3028,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/phishing-controller@npm:^12.4.1":
-  version: 12.4.1
-  resolution: "@metamask/phishing-controller@npm:12.4.1"
-  dependencies:
-    "@metamask/base-controller": ^8.0.0
-    "@metamask/controller-utils": ^11.6.0
-    "@noble/hashes": ^1.4.0
-    "@types/punycode": ^2.1.0
-    ethereum-cryptography: ^2.1.2
-    fastest-levenshtein: ^1.0.16
-    punycode: ^2.1.1
-  checksum: f17755c910a2005c1dca821312704690368c7db3d1d05ad03842f20022e411af6fcf28102d07fb0eb27ad9f5a3391714db786f4d0266601531e0a482b7eae7f0
-  languageName: node
-  linkType: hard
-
 "@metamask/phishing-controller@npm:^12.5.0":
   version: 12.5.0
   resolution: "@metamask/phishing-controller@npm:12.5.0"
@@ -3237,8 +3222,8 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-controllers@npm:^11.2.0":
-  version: 11.2.0
-  resolution: "@metamask/snaps-controllers@npm:11.2.0"
+  version: 11.2.3
+  resolution: "@metamask/snaps-controllers@npm:11.2.3"
   dependencies:
     "@metamask/approval-controller": ^7.1.3
     "@metamask/base-controller": ^8.0.0
@@ -3247,14 +3232,14 @@ __metadata:
     "@metamask/key-tree": ^10.1.1
     "@metamask/object-multiplex": ^2.1.0
     "@metamask/permission-controller": ^11.0.6
-    "@metamask/phishing-controller": ^12.4.1
+    "@metamask/phishing-controller": ^12.5.0
     "@metamask/post-message-stream": ^9.0.0
     "@metamask/rpc-errors": ^7.0.2
     "@metamask/snaps-registry": ^3.2.3
     "@metamask/snaps-rpc-methods": ^12.1.0
-    "@metamask/snaps-sdk": ^6.22.0
-    "@metamask/snaps-utils": ^9.2.0
-    "@metamask/utils": ^11.2.0
+    "@metamask/snaps-sdk": ^6.22.1
+    "@metamask/snaps-utils": ^9.2.1
+    "@metamask/utils": ^11.4.0
     "@xstate/fsm": ^2.0.0
     async-mutex: ^0.5.0
     browserify-zlib: ^0.2.0
@@ -3269,11 +3254,11 @@ __metadata:
     semver: ^7.5.4
     tar-stream: ^3.1.7
   peerDependencies:
-    "@metamask/snaps-execution-environments": ^7.2.0
+    "@metamask/snaps-execution-environments": ^7.2.2
   peerDependenciesMeta:
     "@metamask/snaps-execution-environments":
       optional: true
-  checksum: 178e2af07a75e5dd9ff09e9b925e4bdc3faa83817f7363420d982dacf963791b86f7eb615a054db1fad6d6b0244af6394fdd840e6b38cdc226c115a09b69dd46
+  checksum: c333c59aa0a09efd019b5af31dbd66565ef51365625e96571ce04fdca9f624aa67305eeb75702e992d6c17c9c8cf4504de5cdc8f0fc9b3bf947dd9a10c27c42c
   languageName: node
   linkType: hard
 
@@ -3411,7 +3396,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:^6.24.0":
+"@metamask/snaps-sdk@npm:^6.22.1, @metamask/snaps-sdk@npm:^6.24.0":
   version: 6.24.0
   resolution: "@metamask/snaps-sdk@npm:6.24.0"
   dependencies:
@@ -3495,39 +3480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-utils@npm:^9.2.0":
-  version: 9.2.0
-  resolution: "@metamask/snaps-utils@npm:9.2.0"
-  dependencies:
-    "@babel/core": ^7.23.2
-    "@babel/types": ^7.23.0
-    "@metamask/base-controller": ^8.0.0
-    "@metamask/key-tree": ^10.1.1
-    "@metamask/permission-controller": ^11.0.6
-    "@metamask/rpc-errors": ^7.0.2
-    "@metamask/slip44": ^4.1.0
-    "@metamask/snaps-registry": ^3.2.3
-    "@metamask/snaps-sdk": ^6.22.0
-    "@metamask/superstruct": ^3.2.1
-    "@metamask/utils": ^11.2.0
-    "@noble/hashes": ^1.7.1
-    "@scure/base": ^1.1.1
-    chalk: ^4.1.2
-    cron-parser: ^4.5.0
-    fast-deep-equal: ^3.1.3
-    fast-json-stable-stringify: ^2.1.0
-    fast-xml-parser: ^4.4.1
-    luxon: ^3.5.0
-    marked: ^12.0.1
-    rfdc: ^1.3.0
-    semver: ^7.5.4
-    ses: ^1.1.0
-    validate-npm-package-name: ^5.0.0
-  checksum: 8be0aa923ad598a848a55303719733f5c9d4c4fd1b559e088552c888bdf0c8ad4ac6a96b1af925c59494a0756485805ebe755598d226f9ad2cf99c0e8e980fea
-  languageName: node
-  linkType: hard
-
-"@metamask/snaps-utils@npm:^9.3.0":
+"@metamask/snaps-utils@npm:^9.2.1, @metamask/snaps-utils@npm:^9.3.0":
   version: 9.3.0
   resolution: "@metamask/snaps-utils@npm:9.3.0"
   dependencies:
