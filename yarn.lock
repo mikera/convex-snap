@@ -3143,14 +3143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/slip44@npm:^4.1.0":
-  version: 4.2.0
-  resolution: "@metamask/slip44@npm:4.2.0"
-  checksum: 19d7b731421eddb02d8f741d562195d085c97611d0469d050a0367c56b96cebd05e861745c643fce6e755675bad4615d0f2ce566fec4d93f66923004caf6b683
-  languageName: node
-  linkType: hard
-
-"@metamask/slip44@npm:^4.2.0":
+"@metamask/slip44@npm:^4.1.0, @metamask/slip44@npm:^4.2.0":
   version: 4.2.0
   resolution: "@metamask/slip44@npm:4.2.0"
   checksum: 19d7b731421eddb02d8f741d562195d085c97611d0469d050a0367c56b96cebd05e861745c643fce6e755675bad4615d0f2ce566fec4d93f66923004caf6b683
@@ -3219,8 +3212,8 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-controllers@npm:^12.3.0":
-  version: 12.3.0
-  resolution: "@metamask/snaps-controllers@npm:12.3.0"
+  version: 12.3.1
+  resolution: "@metamask/snaps-controllers@npm:12.3.1"
   dependencies:
     "@metamask/approval-controller": ^7.1.3
     "@metamask/base-controller": ^8.0.1
@@ -3255,7 +3248,7 @@ __metadata:
   peerDependenciesMeta:
     "@metamask/snaps-execution-environments":
       optional: true
-  checksum: 2d06ff7b221a89e95f7b25490a39a18b522eaa91fded58fcde6855e60020edb648eafa156ec1a4ae65567cf30121154178f4e30fdde0326a0517a30cb6c788eb
+  checksum: 8df10102ffa08c19cb89ecfa4719ff40b60af314d678da421360f18c6b47f2d9b2fc4ee0ad5ff6114ce78fbcc376fdc25a7231ec03eb2c310045a8b57afe65cc
   languageName: node
   linkType: hard
 
