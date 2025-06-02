@@ -3143,14 +3143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/slip44@npm:^4.1.0":
-  version: 4.2.0
-  resolution: "@metamask/slip44@npm:4.2.0"
-  checksum: 19d7b731421eddb02d8f741d562195d085c97611d0469d050a0367c56b96cebd05e861745c643fce6e755675bad4615d0f2ce566fec4d93f66923004caf6b683
-  languageName: node
-  linkType: hard
-
-"@metamask/slip44@npm:^4.2.0":
+"@metamask/slip44@npm:^4.1.0, @metamask/slip44@npm:^4.2.0":
   version: 4.2.0
   resolution: "@metamask/slip44@npm:4.2.0"
   checksum: 19d7b731421eddb02d8f741d562195d085c97611d0469d050a0367c56b96cebd05e861745c643fce6e755675bad4615d0f2ce566fec4d93f66923004caf6b683
@@ -3352,7 +3345,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:^7.1.0":
+"@metamask/snaps-sdk@npm:^7.1.0, @metamask/snaps-sdk@npm:~7.1.0":
   version: 7.1.0
   resolution: "@metamask/snaps-sdk@npm:7.1.0"
   dependencies:
@@ -3362,19 +3355,6 @@ __metadata:
     "@metamask/superstruct": ^3.2.1
     "@metamask/utils": ^11.4.0
   checksum: 9d21b7193ce7dfc388188c9b8ad3983decc3d71f6478af23318933b214a6d42e5e152eb44815a0cdfc9b20eb1cee0a44e87793c3027bcbbdb4d9aa566e8c7743
-  languageName: node
-  linkType: hard
-
-"@metamask/snaps-sdk@npm:~7.0.0":
-  version: 7.0.0
-  resolution: "@metamask/snaps-sdk@npm:7.0.0"
-  dependencies:
-    "@metamask/key-tree": ^10.1.1
-    "@metamask/providers": ^22.1.0
-    "@metamask/rpc-errors": ^7.0.2
-    "@metamask/superstruct": ^3.2.1
-    "@metamask/utils": ^11.4.0
-  checksum: 02b2c683c0a0761b4b2dd4dd6319c47309296a994a357362e6ff2788f379091605695d32fcae2e4b898e1192e9d24075b6179c1b0939ca307fa11be2b54a77f8
   languageName: node
   linkType: hard
 
@@ -18084,7 +18064,7 @@ __metadata:
     "@jest/globals": ^29.5.0
     "@metamask/snaps-cli": ^6.6.0
     "@metamask/snaps-jest": ^8.9.0
-    "@metamask/snaps-sdk": ~7.0.0
+    "@metamask/snaps-sdk": ~7.1.0
     "@types/react": 18.2.4
     "@types/react-dom": 18.2.4
     eslint: ^9.11.0
