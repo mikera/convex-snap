@@ -3316,7 +3316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:^7.1.0, @metamask/snaps-sdk@npm:~7.1.0":
+"@metamask/snaps-sdk@npm:^7.1.0":
   version: 7.1.0
   resolution: "@metamask/snaps-sdk@npm:7.1.0"
   dependencies:
@@ -3342,7 +3342,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:^8.1.0":
+"@metamask/snaps-sdk@npm:^8.1.0, @metamask/snaps-sdk@npm:~8.1.0":
   version: 8.1.0
   resolution: "@metamask/snaps-sdk@npm:8.1.0"
   dependencies:
@@ -17642,7 +17642,7 @@ __metadata:
     "@jest/globals": ^29.5.0
     "@metamask/snaps-cli": ^8.0.0
     "@metamask/snaps-jest": ^9.1.0
-    "@metamask/snaps-sdk": ~7.1.0
+    "@metamask/snaps-sdk": ~8.1.0
     "@types/react": 18.2.4
     "@types/react-dom": 18.2.4
     eslint: ^9.11.0
