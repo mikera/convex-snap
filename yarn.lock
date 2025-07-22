@@ -3366,7 +3366,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:^9.1.0, @metamask/snaps-sdk@npm:^9.2.0":
+"@metamask/snaps-sdk@npm:^9.1.0, @metamask/snaps-sdk@npm:^9.2.0, @metamask/snaps-sdk@npm:~9.2.0":
   version: 9.2.0
   resolution: "@metamask/snaps-sdk@npm:9.2.0"
   dependencies:
@@ -3376,19 +3376,6 @@ __metadata:
     "@metamask/superstruct": ^3.2.1
     "@metamask/utils": ^11.4.2
   checksum: 29b1c06b4d9874928b4588dcea5141090695246f5bea70b7d67d4b630ade6ba2ac7e3adc3ee52569115970621be74545536a653dafedd37021014306d9a61ce7
-  languageName: node
-  linkType: hard
-
-"@metamask/snaps-sdk@npm:~8.1.0":
-  version: 8.1.0
-  resolution: "@metamask/snaps-sdk@npm:8.1.0"
-  dependencies:
-    "@metamask/key-tree": ^10.1.1
-    "@metamask/providers": ^22.1.0
-    "@metamask/rpc-errors": ^7.0.2
-    "@metamask/superstruct": ^3.2.1
-    "@metamask/utils": ^11.4.0
-  checksum: 2bddc6ce2a2cc52cb9e29299c8f943ca371cb711580f17036b6cecd0fb48c7ae4497ead547a2c9febd21fa430b55cfd3dc71863bfc35845b40bbf18ab4bd0290
   languageName: node
   linkType: hard
 
@@ -17690,7 +17677,7 @@ __metadata:
     "@jest/globals": ^29.5.0
     "@metamask/snaps-cli": ^8.0.0
     "@metamask/snaps-jest": ^9.1.0
-    "@metamask/snaps-sdk": ~8.1.0
+    "@metamask/snaps-sdk": ~9.2.0
     "@types/react": 18.2.4
     "@types/react-dom": 18.2.4
     eslint: ^9.11.0
