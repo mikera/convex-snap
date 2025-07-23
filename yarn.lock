@@ -3225,20 +3225,20 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-execution-environments@npm:^10.1.0":
-  version: 10.1.0
-  resolution: "@metamask/snaps-execution-environments@npm:10.1.0"
+  version: 10.2.0
+  resolution: "@metamask/snaps-execution-environments@npm:10.2.0"
   dependencies:
     "@metamask/json-rpc-engine": ^10.0.2
     "@metamask/object-multiplex": ^2.1.0
     "@metamask/post-message-stream": ^10.0.0
     "@metamask/providers": ^22.1.0
     "@metamask/rpc-errors": ^7.0.3
-    "@metamask/snaps-sdk": ^9.2.0
-    "@metamask/snaps-utils": ^11.1.0
+    "@metamask/snaps-sdk": ^9.3.0
+    "@metamask/snaps-utils": ^11.2.0
     "@metamask/superstruct": ^3.2.1
     "@metamask/utils": ^11.4.2
     readable-stream: ^3.6.2
-  checksum: 1b417362ad8904c2d98092d6aef3e9af171fd7e6442aae637b743865cade82d4f2ade7f2aade8bebe83a997ac831194eca67f6c3a629c1b058c842b50d6462ad
+  checksum: 518867739ad7e9fb4d88b86f5cc6a37bd7f9d0689895486183fc2606c037d4af336476d1c3d91452d33a57eb0b6c53f63750ae2e34d2f7252c3d81b72f6a79fd
   languageName: node
   linkType: hard
 
@@ -3369,7 +3369,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:~9.3.0":
+"@metamask/snaps-sdk@npm:^9.3.0, @metamask/snaps-sdk@npm:~9.3.0":
   version: 9.3.0
   resolution: "@metamask/snaps-sdk@npm:9.3.0"
   dependencies:
@@ -3470,6 +3470,38 @@ __metadata:
     ses: ^1.13.1
     validate-npm-package-name: ^5.0.0
   checksum: 4900eb8149e18f2d29ffe6bb2e3ec4c996d5acda075516230d9f691fa54bfa6f894df971f901a1c2bcab59ef9d432624a44ad0109ba2488b9c774223b5ef56dd
+  languageName: node
+  linkType: hard
+
+"@metamask/snaps-utils@npm:^11.2.0":
+  version: 11.2.0
+  resolution: "@metamask/snaps-utils@npm:11.2.0"
+  dependencies:
+    "@babel/core": ^7.23.2
+    "@babel/types": ^7.23.0
+    "@metamask/base-controller": ^8.0.1
+    "@metamask/key-tree": ^10.1.1
+    "@metamask/permission-controller": ^11.0.6
+    "@metamask/rpc-errors": ^7.0.3
+    "@metamask/slip44": ^4.2.0
+    "@metamask/snaps-registry": ^3.2.3
+    "@metamask/snaps-sdk": ^9.3.0
+    "@metamask/superstruct": ^3.2.1
+    "@metamask/utils": ^11.4.2
+    "@noble/hashes": ^1.7.1
+    "@scure/base": ^1.1.1
+    chalk: ^4.1.2
+    cron-parser: ^4.5.0
+    fast-deep-equal: ^3.1.3
+    fast-json-stable-stringify: ^2.1.0
+    fast-xml-parser: ^4.4.1
+    luxon: ^3.5.0
+    marked: ^12.0.1
+    rfdc: ^1.3.0
+    semver: ^7.5.4
+    ses: ^1.13.1
+    validate-npm-package-name: ^5.0.0
+  checksum: 0f138ed13b911307d2a77ad8b197a67719358783e3eebe32b20b206b6424d3d9035bdc8fd623068d54fe229fc0e02529ea117c89f50ddb717edf9e0a03f90e5f
   languageName: node
   linkType: hard
 
