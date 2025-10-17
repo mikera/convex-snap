@@ -2987,7 +2987,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/json-rpc-engine@npm:^10.1.0":
+"@metamask/json-rpc-engine@npm:^10.1.0, @metamask/json-rpc-engine@npm:^10.1.1":
   version: 10.1.1
   resolution: "@metamask/json-rpc-engine@npm:10.1.1"
   dependencies:
@@ -2999,14 +2999,14 @@ __metadata:
   linkType: hard
 
 "@metamask/json-rpc-middleware-stream@npm:^8.0.6, @metamask/json-rpc-middleware-stream@npm:^8.0.7":
-  version: 8.0.7
-  resolution: "@metamask/json-rpc-middleware-stream@npm:8.0.7"
+  version: 8.0.8
+  resolution: "@metamask/json-rpc-middleware-stream@npm:8.0.8"
   dependencies:
-    "@metamask/json-rpc-engine": ^10.0.3
+    "@metamask/json-rpc-engine": ^10.1.1
     "@metamask/safe-event-emitter": ^3.0.0
-    "@metamask/utils": ^11.1.0
+    "@metamask/utils": ^11.8.1
     readable-stream: ^3.6.2
-  checksum: 64ccfd606e9a95ce255f94f2b12ecd6da889533d3120248f2f29741dbefb3705f7157a02c38561f01088c99ee643bea65cedb258c2471e1ee65ea8f23911e2e6
+  checksum: 5e016fb623ba6c5da9cd17d73c50378998bf87217ee0882caeb534084824ee1ff7f004adebea0141791e2f934dfaed2b91e0e9cf343de94d510996d1f770f0c9
   languageName: node
   linkType: hard
 
